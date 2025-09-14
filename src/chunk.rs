@@ -16,6 +16,11 @@ pub mod chunk {
                 count:0,
                 capacity:0,
             };
+        }
+        fn write_chunk(&mut self) {
+            if self.count > self.capacity {
+                let old_capacity = self.capacity;
+            }
         }   
     }
 }
